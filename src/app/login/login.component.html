@@ -1,5 +1,9 @@
-<div class="container mt-5">
-    <div class="card" style="padding: 20px;">
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+
+      <h3>Login</h3>
+
+      <!-- Login Form -->
         <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
             <input type="text"
             ngModel
@@ -19,7 +23,7 @@
 
             <input type="submit"
             value="Login"
-            class="btn btn-outline-primary form-control rounded-0">
+            class="fadeIn fourth">
         </form>
     </div>
 </div>
